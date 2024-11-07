@@ -188,20 +188,27 @@ hr {
 
 
  @media screen and (min-width: 425px) {
-    .secao__perfil, .secao__data, .secao__container,header {
-    width: 405px;
-    }
 
     header {
         width: 410px!important;
     }
 
 
- }
- @media screen and (min-width: 375px) {
-    .secao__perfil, .secao__data, .secao__container,header {
-    width: 376px;
+    .secao__perfil, .secao__data, .secao__container {
+    width: 405px;
     }
+
+   
  }
 
- 
+
+ @media screen and (min-width: 375px) {
+
+    header {
+        width: 376px;
+    }
+
+    .secao__perfil, .secao__data, .secao__container {
+    width: 355px;
+    }
+ }
