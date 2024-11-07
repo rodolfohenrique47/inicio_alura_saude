@@ -108,6 +108,7 @@ hr {
     margin-left: 16px;
     border-radius: 10px;
     border: 1px #ECECEC;
+
 }
 
 .container__lista {
@@ -180,3 +181,8 @@ hr {
     padding-left: 16px;
     margin-top: 32px;
  }
+
+ .quarta__ajuste-margem-bottom {
+    margin-bottom: 17px;
+ }
+
