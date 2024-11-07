@@ -14,7 +14,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 360px;
+    width: 428px;
     background-color: #ffffff;
     justify-content: space-between;
 }
@@ -39,7 +39,7 @@ header {
     padding-right: 6.31px;
 }
 .secao__perfil {
-    width: 360px;
+    width: 428px;
     padding-left: 15px;
     background-color: #faf8fe;
     display: flex;
@@ -67,7 +67,7 @@ header {
 
 .secao__data {
     background-color: #faf8fe;
-    width: 360px;
+    width: 428px;
     padding-left: 15px;
 }
 .secao__data-subtitulo {
@@ -103,7 +103,7 @@ hr {
 
 
 .secao__container {
-    width: 328px;
+    width: 428px;
     background-color: #ffffff;
     margin-left: 16px;
     border-radius: 10px;
