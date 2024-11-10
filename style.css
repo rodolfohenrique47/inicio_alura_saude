@@ -212,25 +212,44 @@ hr {
 
 
 
+ @media screen and (max-width: 425px) {
 
+    header {
+        width: 98.5%;
+    }
+
+    .secao__perfil, .secao__data, .secao__container {
+    width: 95%;
+    }
+
+    .botao__ligar-video {
+        font-size: .8em;
+    }
+
+    .botao__ligar-audio {
+        font-size: .8em;
+    }
+
+
+ }
 
 
  @media screen and (max-width: 375px) {
 
     header {
-        width: 75%;
+        width: 100%;
     }
 
     .secao__perfil, .secao__data, .secao__container {
-    width: 70%;
+    width: 92%;
     }
 
     .botao__ligar-video {
-        font-size: .5em;
+        font-size: .8em;
     }
 
     .botao__ligar-audio {
-        font-size: .5em;
+        font-size: .8em;
     }
 
 
