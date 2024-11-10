@@ -187,30 +187,54 @@ hr {
  }
 
 
- @media screen and (min-width: 360px) {
+
+ @media screen and (max-width: 425px) {
 
     header {
-        width: 100%;
-        
-        
-    }
-
-
-    .secao__perfil, .secao__data, .secao__container {
-    width: 92%;
-    }
-
-   
- }
-
-
- @media screen and (min-width: 375px) {
-
-    header {
-        width: 376px;
+        width: 75%;
     }
 
     .secao__perfil, .secao__data, .secao__container {
-    width: 355px;
+    width: 70%;
     }
+
+    .botao__ligar-video {
+        font-size: .5em;
+    }
+
+    .botao__ligar-audio {
+        font-size: .5em;
+    }
+
+
  }
+
+
+
+
+
+
+
+ @media screen and (max-width: 375px) {
+
+    header {
+        width: 75%;
+    }
+
+    .secao__perfil, .secao__data, .secao__container {
+    width: 70%;
+    }
+
+    .botao__ligar-video {
+        font-size: .5em;
+    }
+
+    .botao__ligar-audio {
+        font-size: .5em;
+    }
+
+
+ }
+
+
+ 
